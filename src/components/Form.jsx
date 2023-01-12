@@ -72,14 +72,13 @@ function Form() {
 
   return (
 
-<section className="relative flex flex-wrap lg:h-screen lg:items-center ">
+<section className="relative flex flex-wrap lg:h-screen lg:items-center p-5 mb-10 ">
   <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
     <div className="mx-auto max-w-lg text-center">
-      <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">Reach Out Today !</h1>
 
       <p className="mt-4 text-gray-500">
-        Send us an idea of a slogan for the competition<br/>
-        the winner will get a free trip to the event 🚲
+        One of our travel agents will contact you within 24 hours<br/>
       </p>
     </div>
 
@@ -126,12 +125,12 @@ function Form() {
         </div>
       </div>
       <div>
-        <label htmlFor="text" className="sr-only">Last Name</label>
+        <label htmlFor="text" className="sr-only">Phone </label>
         <div className="relative">
           <input
-            type="text"
+            type="Phone"
             className="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-            placeholder="Enter Your Last Name"
+            placeholder="Enter Your Phone"
             onChange={(e) => setLast_name(e.target.value)}
           />
 
@@ -139,12 +138,12 @@ function Form() {
       </div>
 
       <div>
-        <label htmlFor="password" className="sr-only">Slogan</label>
+        <label htmlFor="password" className="sr-only">Message</label>
         <div className="relative">
           <textarea
             type="password"
             className="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-            placeholder="Max.50 caractères Slogan" 
+            placeholder="Leave a Message here" 
             onChange={(e) => setSlogan(e.target.value)}
           />
         </div>
@@ -167,7 +166,7 @@ function Form() {
   <div className="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
     <img
       alt="Welcome"
-      src="../static/img/carpets-market-marrakech.jpg"
+      src="../static/img/square-header.jpg"
       className="absolute inset-0 h-full w-full object-cover"
     />
   </div>
