@@ -5,7 +5,7 @@ function Destinations() {
     <section className="destinations">
     <div className='destinations-container'>
         <div className='title'>
-            <h2>Our tours</h2>
+            <h2 className=''>Our tours</h2>
 
         </div>
         <div className="card">

@@ -6,7 +6,7 @@ function HeroSection() {
       <div className='headerContainer'>
         <div className='headerText'>
           <h1 className='mainTitle'>Emotions continue to reach Morocco</h1>
-          <p></p>
+          <p className='mainLead'>Are you tempted to share our Emotions ?</p>
           <br/>
           <a
           href="#"

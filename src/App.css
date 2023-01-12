@@ -64,13 +64,17 @@ html{
 
 
   /* Destinations */
-
-  .destinations::before {
-    background-image:url(../public/static/img/Moroccan-deco.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
+  .destinations{
+    background-color: #fff;
   }
+  .destinations h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color:#0067B3;
+  }
+   
 
   .card {
     display: flex;
@@ -80,8 +84,7 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
-
+    margin-bottom: 2rem;
   }
   .cardContent {
     max-width: 550px;
@@ -153,7 +156,13 @@ html{
     color: #f5f5f5;
     z-index: 0;
   }
-
+  .mainLead {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #f5f5f5;
+    z-index: 0;
+    margin-top: 1.2rem;
+  }
   @media screen and (max-width: 768px) {
     .headerContainer img {
       max-width: 100%;
