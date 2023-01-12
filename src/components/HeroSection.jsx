@@ -29,7 +29,7 @@ function HeroSection() {
 
   <img
     alt="Student"
-    src="../public/static/img/carpets-market-morocco.jpg"
+    src="../static/img/carpets-market-morocco.jpg"
     class="h-56 w-full object-cover sm:h-full"
   />
 </section>

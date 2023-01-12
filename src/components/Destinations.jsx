@@ -12,7 +12,7 @@ function Destinations() {
         <div className='cardContent' >
         <img
             alt="Lava"
-            src="../public/static/img/city-decoration-mosque-arabian-ornament.jpg"
+            src="../static/img/city-decoration-mosque-arabian-ornament.jpg"
             class="h-80 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
         />
 
@@ -35,7 +35,7 @@ function Destinations() {
         <div className='cardContent'>
                 <img
                     alt="Lava"
-                    src="../public/static/img/carpets-market-marrakech.jpg"
+                    src="../static/img/carpets-market-marrakech.jpg"
                     class="h-80 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
                 />
 
@@ -58,7 +58,7 @@ function Destinations() {
         <div className='cardContent'>
         <img
             alt="Lava"
-            src="../public/static/img/south.jpg"
+            src="../static/img/south.jpg"
             class="h-80 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
         />
 
@@ -82,7 +82,7 @@ function Destinations() {
         <div className='cardContent'>
         <img
             alt="Lava"
-            src="../public/static/img/sea-side.jpg"
+            src="../static/img/sea-side.jpg"
             class="h-80 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
         />
 
