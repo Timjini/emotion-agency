@@ -1,16 +1,17 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function Hero() {
   return (
     <section className="bg-gray-50 hero">
-  <div
+  <motion.div initial={{y : -250}} animate={{y:0 , animationDelay: 10}}
     className="heroContainer"
   >
     <div className="heroContent">
       <p className='herolead'>EXPLORE</p>
-      <h1 className="heroTitle">
-        MOROCCO
-      </h1>
+      <motion.h1 className='heroTitle' whileHover={{ scale: 1.2 }} >
+                MOROCCO
+            </motion.h1>
     </div>
     <div className='heroCards '>
       <div className='Emcard'>
@@ -29,7 +30,7 @@ function Hero() {
         <a href="#"><i class="fa-solid fa-envelope social"></i>  </a>  
       </div>
 
-  </div>
+  </motion.div>
 </section>
 
   )
