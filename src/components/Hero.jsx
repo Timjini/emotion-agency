@@ -4,37 +4,31 @@ function Hero() {
   return (
     <section className="bg-gray-50 hero">
   <div
-    className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
+    className="heroContainer"
   >
-    <div className="mx-auto max-w-xl text-center">
-      <h1 className="text-3xl font-extrabold sm:text-5xl">
-        Understand User Flow.
-        <strong className="font-extrabold text-red-700 sm:block">
-          Increase Conversion.
-        </strong>
+    <div className="heroContent">
+      <p className='herolead'>EXPLORE</p>
+      <h1 className="heroTitle">
+        MOROCCO
       </h1>
-
-      <p className="mt-4 sm:text-xl sm:leading-relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-        tenetur fuga ducimus numquam ea!
-      </p>
-
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <a
-          className="custom-btn btn-15"
-          href="/get-started"
-        >
-          Get Started
-        </a>
-
-        <a
-          className="block w-full rounded px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-          href="/about"
-        >
-          Learn More
-        </a>
-      </div>
     </div>
+    <div className='heroCards '>
+      <div className='Emcard'>
+        <h2 className='heroCardTitle'>Cultural Tours</h2>
+      </div>
+      <div className='Emcard'>
+        <h2 className='heroCardTitle'>City Breaks</h2>
+      </div>
+      <div className='Emcard'>
+       <h2 className='heroCardTitle'>Tailor Made Tours</h2>
+      </div>
+  </div>
+      <div className='socialmedia'>
+        <a href='#'><i class="fa-brands fa-facebook social"></i></a>
+        <a href='#'><i class="fa-brands fa-instagram social"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope social"></i>  </a>  
+      </div>
+
   </div>
 </section>
 

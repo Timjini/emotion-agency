@@ -7,7 +7,7 @@ import Section from '../components/Section'
 function Home() {
   return (
     <>  
-        <HeroSection />
+        <Hero />
         <Destinations />
     </>
   )
